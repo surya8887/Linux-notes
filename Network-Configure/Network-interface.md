@@ -31,13 +31,17 @@ It covers **network modes, file paths, commands, and configuration tools**.
 - `/etc/NetworkManager/system-connections/` → Main connection configs (`*.nmconnection`)  
 - (Old RHEL 7 & CentOS 7 only: `/etc/sysconfig/network-scripts/ifcfg-*`)
 
+
 ### 🔧 Commands
 
 #### Service Control
-```bash
+
+``` bash
+
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
-````
+
+```
 
 #### Device & Connection Info
 
