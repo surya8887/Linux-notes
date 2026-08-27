@@ -124,7 +124,7 @@ ls -ld mydir
 ```bash
 rm -f file.txt       # force delete file
 rm -rf mydir/        # recursive delete directory
-rm -I file.txt       # prompt before deleting many files
+rm -i file.txt       # prompt before deleting many files
 ```
 
 ---
